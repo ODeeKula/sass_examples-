@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE Edge">
+    <title></title>
+  </head>
+  <body>
+    <div class="">
+      <input type="number" id="age" name="" value="">
+      <button type="button" id="button" name="button" onclick="age()">Submit</button>
+      <div class="display" id= "output"></div>
+    </div>
+
+
+
+
+
+    <script>
+    alert('Enter your age');
+
+
+    function age(){
+      //check for the following ages 6, 13, 16, 18, 21, 23, 30+
+      var age = document.getElementById('age').value;
+      var output = document.getElementById('output');
+      if (age==6) {
+        output.innerHTML = "You are small for a six year old";
+      }
+      else if (age==13) {
+        output.innerHTML = "You are allowed to procceed";
+      }
+      else if (age==16) {
+        output.innerHTML = "You are allowed to procceed";
+      }
+      else if (age==18) {
+        output.innerHTML = "You are allowed to procceed";
+      }
+      else if (age==21) {
+        output.innerHTML = "You are allowed to procceed";
+      }
+      else if (age==23) {
+        output.innerHTML = "You are allowed to procceed";
+      }
+      else if(age>=30){
+        output.innerHTML = "You are too old";
+      }
+      else {
+        output.innerHTML = "not recognized";
+      }
+    }
+
+    </script>
+  </body>
+</html>

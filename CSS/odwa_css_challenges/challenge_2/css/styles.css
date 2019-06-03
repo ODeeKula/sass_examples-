@@ -1,0 +1,19 @@
+.top{
+background-color: gray;
+font-size: 14px;
+letter-spacing: 20px;
+word-spacing: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.row{
+box-sizing: border-box
+display: flex;
+}
+
+.first .second{
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+}
